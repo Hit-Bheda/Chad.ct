@@ -1,5 +1,5 @@
 import React from 'react'
-import { BottomMenu, Buttons, DataContainer, Dot, Emoji, EntrMsg, Main, MsgBar, Name, Pin, Send, SendBtn, TopBar, TopMenu, UserImg } from './Message.style'
+import { BottomMenu, Buttons, DataContainer, Dot, Emoji, EntrMsg, Main, MassageContainer, MsgBar, MsgBox, MsgTime, Name, Pin, Send, SendBtn, TopBar, TopMenu, UserDetail, UserImg } from './Message.style'
 
 function Message() {
   return (
@@ -14,7 +14,16 @@ function Message() {
                   <Dot></Dot>
                 </DataContainer>
             </TopBar>
-            <BottomMenu></BottomMenu>
+            <BottomMenu>
+              <MassageContainer>
+                <UserDetail>
+                <UserImg style={{width:"2.5rem"}}></UserImg>
+                <Name style={{fontSize:".8rem"}}>Hit Bheda</Name>
+                <MsgTime>12:15 PM</MsgTime>
+                </UserDetail>
+                <MsgBox>It Is What It Is!</MsgBox>
+              </MassageContainer>
+            </BottomMenu>
             <MsgBar>
               <EntrMsg></EntrMsg>
               <Buttons>
