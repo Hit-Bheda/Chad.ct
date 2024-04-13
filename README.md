@@ -1,6 +1,4 @@
-Sure, here's a basic README template for the "Chad.ct" GitHub repository:
 
----
 
 # Chad.ct
 
@@ -51,6 +49,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to modify or expand upon this template to better suit your project's needs!
